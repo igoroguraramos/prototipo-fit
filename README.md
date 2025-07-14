@@ -75,8 +75,6 @@ E colar o código acima.
 
 ```bash
 npm run dev
-# ou para modo observador automático
-npm run watch
 ```
 
 10. Rode o servidor local do Laravel no terminal 2:
@@ -87,6 +85,28 @@ php artisan serve
 
 ---
 
+
+## Melhorias sugeridas
+
+
+### Backend
+
+- Refatorar controllers para utilizar Use Cases, separando regras de negócio e reduzindo responsabilidades dos controllers.
+- Implementar o padrão Repository para desacoplar a lógica de acesso a dados dos modelos Eloquent.
+- Adicionar testes unitários para Use Cases, Repositories e Controllers, garantindo maior cobertura e qualidade do código.
+- Implementar filtro de treinos por nível (iniciante, intermediário, avançado) nas rotas de treinos.
+- Melhorar os responses de erro e sucesso da API, retornando mensagens detalhadas e em português para facilitar o entendimento pelo usuário.
+
+
+### Frontend
+
+- Melhorar o visual das páginas, tornando a interface mais moderna e responsiva.
+- Adicionar componentes de Head e Footer reutilizáveis para padronizar o layout.
+- Criar outros componentes reutilizáveis para formulários, tabelas e botões.
+- Adicionar o Pinia para gerenciamento de estado global, facilitando a comunicação entre componentes.
+- Implementar feedbacks visuais com toast para validações, erros e ações do usuário.
+
+---
 ## Acessando a aplicação
 
 - Abra o navegador em: [http://localhost:8000](http://localhost:8000)  
