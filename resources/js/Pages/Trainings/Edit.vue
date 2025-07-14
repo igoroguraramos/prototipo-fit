@@ -23,19 +23,21 @@
         <div v-if="form.errors.description" class="text-sm text-red-600 mt-1">{{ form.errors.description }}</div>
       </div>
 
-      <div class="flex justify-end">
+      <div class="flex justify-between items-center">
         <Link
           href="/trainings"
           class="inline-flex items-center px-4 py-2 bg-gray-200 border border-gray-300 rounded-md font-semibold text-gray-700 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
         >
-          Cancelar
+          Voltar
         </Link>
-        <button
-          type="submit"
-          class="ml-3 inline-flex items-center px-4 py-2 bg-indigo-600 border border-transparent rounded-md font-semibold text-white hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        >
-          Atualizar
-        </button>
+        <div>
+          <button
+            type="submit"
+            class="inline-flex items-center px-4 py-2 bg-indigo-600 border border-transparent rounded-md font-semibold text-white hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          >
+            Atualizar
+          </button>
+        </div>
       </div>
     </form>
   </div>
