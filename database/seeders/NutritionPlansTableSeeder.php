@@ -17,14 +17,12 @@ class NutritionPlansTableSeeder extends Seeder
             [
                 'name' => 'Plano Hipercalórico',
                 'description' => 'Plano alimentar focado em ganho de massa muscular.',
-                'user_id' => 1,
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
                 'name' => 'Plano Low Carb',
                 'description' => 'Plano para redução de gordura corporal.',
-                'user_id' => 1,
                 'created_at' => now(),
                 'updated_at' => now(),
             ]
